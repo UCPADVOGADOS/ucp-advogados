@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>UCP Advogados</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #f9f8f6;
+      color: #333;
+    }
+    header {
+      background-color: #3e2f1c;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #2e2314;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      background-color: #5c4431;
+    }
+    .hero {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: #eee5db;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+    .section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .areas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    .area {
+      background-color: #fff;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    footer {
+      text-align: center;
+      background-color: #3e2f1c;
+      color: white;
+      padding: 2rem;
+    }
+    .contato-form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    input, textarea {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    button {
+      background-color: #3e2f1c;
+      color: white;
+      border: none;
+      padding: 1rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #5c4431;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>UCP ADVOGADOS</h1>
+    <p>Compromisso com a excelência jurídica</p>
+  </header>
+
+  <nav>
+    <a href="#sobre">Sobre</a>
+    <a href="#areas">Áreas de Atuação</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section class="hero">
+    <h1>Atuação jurídica com seriedade, ética e resultado</h1>
+    <p>Especialistas em Direito Civil, Previdenciário, Trabalhista e de Família</p>
+  </section>
+
+  <section id="sobre" class="section">
+    <h2>Sobre o Escritório</h2>
+    <p>
+      A UCP Advogados é um escritório moderno, comprometido com a qualidade técnica e a defesa dos interesses de seus clientes. Atuamos com transparência, agilidade e dedicação em cada caso.
+    </p>
+  </section>
+
+  <section id="areas" class="section">
+    <h2>Áreas de Atuação</h2>
+    <div class="areas">
+      <div class="area">
+        <h3>Direito Civil</h3>
+        <p>Contratos, indenizações, responsabilidade civil, posse e propriedade.</p>
+      </div>
+      <div class="area">
+        <h3>Direito Previdenciário</h3>
+        <p>Aposentadorias, pensões, benefícios por incapacidade, revisões.</p>
+      </div>
+      <div class="area">
+        <h3>Direito Trabalhista</h3>
+        <p>Defesa de direitos do trabalhador, rescisões, verbas e ações contra empresas.</p>
+      </div>
+      <div class="area">
+        <h3>Direito de Família</h3>
+        <p>Divórcios, guarda, pensão alimentícia, inventários e partilhas.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato" class="section">
+    <h2>Entre em Contato</h2>
+    <form class="contato-form">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="email" placeholder="Seu e-mail" required />
+      <textarea rows="5" placeholder="Sua mensagem"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 UCP Advogados. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
